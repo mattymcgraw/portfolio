@@ -53,6 +53,21 @@ a {
       margin-top: 1rem;
       margin-left: 0; } }
 
+.profile-image {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.profile-image img {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+
 .page-header {
   color: #fff;
   text-align: center;

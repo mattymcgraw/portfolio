@@ -39,13 +39,16 @@
     <!-- ******HEADER****** -->
     <header class="header">
         <div class="container">
-            <img class="profile-image img-responsive pull-left" src="assets/images/profile.png" alt="James Lee" />
+            <div class="profile-image img-responsive pull-left image-cropper">
+                <img src="assets/images/profile_new.png" alt="Matt McGraw" class="rounded" />
+              </div>
+            <!-- <img class="profile-image img-responsive pull-left" src="" alt="James Lee" /> -->
             <div class="profile-content pull-left">
                 <h1 class="name">Matt McGraw</h1>
                 <h2 class="desc">Front End Developer</h2>
                 <ul class="social list-inline">
-                    <li><a href="https://twitter.com/mattymcgraw"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/mattmcgraw"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://twitter.com/mattymcgraw" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/mattmcgraw" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                     <li class="last-item"><a><i class="fa">Ⓥ</i></a></li>
                 </ul>
             </div><!--//profile-->
@@ -60,11 +63,9 @@
                     <div class="section-inner">
                         <h2 class="heading">About Me</h2>
                         <div class="content">
-                            <p>I'm a freelance front end developer and designer based in the greater Los Angeles area. I love the challenge of learning new technologies and developing with them. </p>
-
-                            <p>I have excellent soft skills and work well on a diverse team. Working with product owners, project managers and stakeholders through active participation in code reviews, design discussions, demos, proposals, and rapid prototyping. I love design and the visual aesthetic, I'm always looking to add new knowledge and capabilities to my skill set.</p>
-
-                            <p>I love a good cup of coffee and spending time with my wife and kids. I am a sci-fi/fantasy geek, Netflix binger and love a good D&amp;D session. </p>
+                            <p>I'm a senior front end developer based in the greater Los Angeles area. I love the challenge of learning new technologies and developing dynamic applications with them. </p>
+                            <p>I have excellent soft skills and work well in a team. Working with product owners, project managers and stakeholders through active participation in code reviews, design discussions, demos, proposals, and rapid prototyping. I'm always looking to add new knowledge and capabilities to my skill set.</p>
+                            <p>I am a long distance runner and am usually out on trails with my dog Pickles. I love a good cup of coffee, drawing, plant-keeping and spending time with my kids. I am a sci-fi/fantasy geek, Netflix binger and love a good D&amp;D session. </p>
 
                         </div><!--//content-->
                     </div><!--//section-inner-->
@@ -75,7 +76,7 @@
                         <h2 class="heading">Latest Projects</h2>
                         <div class="content">
 
-                            <div class="item featured text-center">
+                            <div class="item featured text-left">
                                 <h3 class="title"><a href="https://www.avsola.com/" target="_blank">Avsola.com</a></h3>
                                 <p class="summary">A mobile-first B2C in SiteCore 9</p>
                                 <div class="featured-image">
@@ -84,13 +85,26 @@
                                     </a>
 
                                 <div class="desc text-left">
-                                    <p>Developed components in HTML5, SASS, jQuery and Javascript. Provide weekly "tours" for clients to be able to see progress and test functionality. Created pixel-perfect presentation layer from Agency provided design files. Troubleshoot and fixed bugs as discovered.</p>
-                                    <p>Work in a team of 4-5 stakeholders (project management, QA, Back-End Developer and SiteCore Site Architect) using Agile methodologies, Jira and Git in a weekly sprint model. Coordinate with Back-End Devs and Sitecore Architect regularly to structure code optimally and well documented.</p>
+                                    <p>Developed components in HTML5, SCSS and Javascript. Created pixel-perfect presentation layer from Agency of Record provided design files. Implement component based design system within SiteCore 9.</p>
+                                    <p>Work in a team of 4-5 stakeholders using Jira and Git in a weekly sprint model. Coordinate with Back-End Devs and Sitecore Architect regularly to structure code optimally and maintain thorough documentation.</p>
                                 </div><!--//feature desc-->
                                 <a class="btn btn-cta-secondary" href="https://www.avsola.com/" target="_blank"><i class="fa fa-external-link"></i> Find out more</a>
+                            </div>
                             </div><!--//feature item-->
 
                             <hr class="divider" />
+
+                            <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="https://www.prolia.com/" target="_blank">
+                                <img class="img-responsive project-image" src="assets/images/projects/project-7.png" alt="Prolia.com" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="http://prolia.com" target="_blank">Prolia.com</a></h3>
+                                    <p>Work in a small team of 4 using agile-based approach, Jira and Git in a weekly sprint model. Coordinate with Back-End Devs and Sitecore Architect regularly to structure code optimally and well documented.</p>
+                                    <p>Developed components in HTML5, SCSS and Javascript. Created pixel-perfect presentation layer from Agency of Record provided design files. Troubleshoot and fixed bugs as discovered.</p>
+                                    <p><a class="more-link" href="http://prolia.com" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                </div><!--//desc-->
+                            </div><!--//item-->
 
                             <div class="item row">
                                 <a class="col-md-4 col-sm-4 col-xs-12" href="http://photoaffections.com" target="_blank">
@@ -155,11 +169,10 @@
                         <h2 class="heading">Work Experience</h2>
                         <div class="content">
                             <div class="item">
-                                <h3 class="title">Web Designer/Developer &amp; Graphic Artist <span class="year">(1991 - Present)</span></h3>
-                                <p>I have an eye for clean and artful design, possess superior user interface design skills and am able to translate high-level requirements into interaction flows and artifacts, and transform them into beautiful, intuitive, and functional designs.​</p>
+                                <h3 class="title">Senior Frontend Developer<br/>
+                                    <span class="place"> - <a href="https://www.tagww.com/ams/">Tag Worldwide (USA) Inc.</a></span> <span class="year">(2017 - Present)</span></h3>
+                                <p>I have an eye for clean and artful design, possess superior user interface design skills and am able to translate high-level requirements into interaction flows and artifacts, transform them into beautiful, intuitive, and functional designs.​</p>
                                 <ul>
-                                    <li>Proven, demonstrable graphic design and web design skills</li>
-                                    <li>Proficient in Photoshop, Illustrator, a wide range of media, visual design and wire-framing tools</li>
                                     <li>Proficient in HTML5, CSS3, some JavaScript and some PHP</li>
                                     <li>Excellent visual design skills with a sensitivity to user-system interaction​</li>
                                     <li>Up-to-date with the latest Web trends, techniques, and technologies</li>
@@ -169,17 +182,20 @@
                             </div><!--//item-->
 
                             <div class="item">
-                                <h3 class="title">Web Developer - <span class="place"><a href="http://www.quantumsolutions.com/">Quantum Solutions Inc.</a></span> <span class="year">(2016 - 2017)</span></h3>
+                                <h3 class="title">Web Developer<br/>
+                                    <span class="place"> - <a href="http://www.quantumsolutions.com/">Quantum Solutions Inc.</a></span> <span class="year">(2016 - 2017)</span></h3>
                                 <p>Responsible for the development, implementation, design and maintenance of various web presences in a large online affiliate marketing company. I designed, implemented, coded, created new sites, features, UI/UX elements, landing pages and addressed legacy issues. I implemented and maintained site performance features and analysis tools for internal use. Worked with product managers to successfully develop landing pages that convert visitors into paying customers. Worked with backend engineers and QA to see projects through to completion. I created email templates that were device friendly and supported all email clients. I prioritized and managed multiple tasks &amp; multiple projects across various channels, under tight deadlines. </p>
                             </div><!--//item-->
 
                             <div class="item">
-                                <h3 class="title">Front End Web Developer - <span class="place"><a href="http://avanquestna.com">Avanquest NA</a></span> <span class="year">(2011 - 2016)</span></h3>
+                                <h3 class="title">Front End Web Developer<br/>
+                                    <span class="place"> - <a href="http://avanquestna.com">Avanquest NA</a></span> <span class="year">(2011 - 2016)</span></h3>
                                 <p>I designed and built sites and front-end components within a custom framework using HTML5, CSS3, Javascript and jQuery for a variety web and mobile implementations including mobile specific sites, responsive and scalable projects for desktop, mobile and tablets.</p>
                             </div><!--//item-->
 
                             <div class="item">
-                                <h3 class="title">Web Designer - <span class="place"><a href="http://topcosales.us">Topco Sales</a></span> <span class="year">(2012 - 2013)</span></h3>
+                                <h3 class="title">Web Designer<br/>
+                                    <span class="place"> - <a href="http://topcosales.us">Topco Sales</a></span> <span class="year">(2012 - 2013)</span></h3>
                                 <p>I designed and built various web presences in a consumer product manufacturing. I designed, coded, created new sites and landing pages. I helped redesign the corporate site from PSD to code. Worked with marketing and sales representatives to successfully develop landing pages that showcased products. Worked with backend engineer to ensure projects met and exceeded desired expectations.</p>
                             </div><!--//item-->
 
@@ -189,34 +205,16 @@
 
             </div><!--//primary-->
             <div class="secondary col-md-4 col-sm-12 col-xs-12">
-                 <aside class="info aside section">
-                    <div class="section-inner">
-                        <h2 class="heading sr-only">Basic Information</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Los Angeles, CA, US</li>
-                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="mailto:mattymcgraw@me.com">mattymcgraw@me.com</a></li>
-                            </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//aside-->
+                 
 
                 <aside class="skills aside section">
                     <div class="section-inner">
                         <h2 class="heading">Skills</h2>
                         <div class="content">
-                            <p class="intro">
-                                I've been responsible for executing the implementation of all creative deliverables. I design, develop and maintain web-sites. I design print advertisements, brochures, stationery, billboards, logos and marketing collateral. My design work is well constructed in both print media and online. I create email templates that are device friendly and supported by all email clients. I work closely with backend engineers and QA to see projects through to completion. I prioritize and manage multiple tasks & multiple projects across various channels, under tight deadlines. I work with shareholders to roadmap and deliver assets in a timely manner.
+                            <!-- <p class="intro">
+                                I've been responsible for executing the implementation of all creative deliverables. I've created email templates that are device friendly and supported by all email clients. I work closely with backend engineers and QA to see projects through to completion. I prioritize and manage multiple tasks & multiple projects across various channels, under tight deadlines. I work with shareholders to roadmap and deliver assets in a timely manner. -->
 
                             <div class="skillset">
-
-                                <div class="item">
-                                    <h3 class="level-title">Adobe CS<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="" data-original-title="Photoshop, Illustrator, InDesign, Premiere Pro AND XD">Expert</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="90%">
-                                        </div>
-                                    </div><!--//level-bar-->
-                                </div><!--//item-->
 
                                 <div class="item">
                                     <h3 class="level-title">HTML5<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="" data-original-title="Love semantic code!">Expert</span></h3>
@@ -227,17 +225,9 @@
                                 </div><!--//item-->
 
                                 <div class="item">
-                                    <h3 class="level-title">jQuery<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="" data-original-title="Have been using less jQuery recently.">Pro</span></h3>
+                                    <h3 class="level-title">Javascript<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="" data-original-title="Always learning">Pro</span></h3>
                                     <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="90%">
-                                        </div>
-                                    </div><!--//level-bar-->
-                                </div><!--//item-->
-
-                                <div class="item">
-                                    <h3 class="level-title">Javascript<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="" data-original-title="Baby steps!"><i class="fa fa-info-circle"></i></span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="55%">
+                                        <div class="level-bar-inner" data-level="75%">
                                         </div>
                                     </div><!--//level-bar-->
                                 </div><!--//item-->
@@ -251,12 +241,46 @@
                                 </div><!--//item-->
 
                                 <div class="item">
+                                    <h3 class="level-title">Version Control<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="" data-original-title="Mostly GIT, but SVN too">Pro</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="75%">
+                                        </div>
+                                    </div><!--//level-bar-->
+                                </div><!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">React Native<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="" data-original-title="JS Frameworks...flavor of the month"><i class="fa fa-info-circle"></i></span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="65%">
+                                        </div>
+                                    </div><!--//level-bar-->
+                                </div><!--//item-->
+
+                                <div class="item">
                                     <h3 class="level-title">PHP<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="" data-original-title="Getting better everyday!"><i class="fa fa-info-circle"></i></span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="70%">
                                         </div>
                                     </div><!--//level-bar-->
                                 </div><!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">jQuery<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="" data-original-title="Have been using less jQuery recently.">Pro</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="90%">
+                                        </div>
+                                    </div><!--//level-bar-->
+                                </div><!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">Adobe CS<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="" data-original-title="Photoshop, Illustrator, InDesign, Premiere Pro AND XD">Expert</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="90%">
+                                        </div>
+                                    </div><!--//level-bar-->
+                                </div><!--//item-->
+
+
 
                             </div>
                         </div><!--//content-->
@@ -309,6 +333,10 @@
                                     <span class="level">Native Speaker <br class="visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
                                 </li><!--//item-->
                                 <li class="item">
+                                    <span class="title"><strong>French:</strong></span>
+                                    <span class="level">Basic Proficiency <br class="visible-sm visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> </i> <i class="fa fa-star-half"></i></span>
+                                </li><!--//item-->
+                                <li class="item">
                                     <span class="title"><strong>Spanish:</strong></span>
                                     <span class="level">Basic Proficiency <br class="visible-sm visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> </i> <i class="fa fa-star-half"></i></span>
                                 </li><!--//item-->
@@ -355,7 +383,7 @@
     <!-- ******FOOTER****** -->
     <footer class="footer">
         <div class="container text-center">
-                <small class="copyright">&copy; 2017 | Designed with <i class="fa fa-heart"></i></small>
+                <small class="copyright">&copy; 2022 | Designed with <i class="fa fa-heart"></i></small>
         </div><!--//container-->
     </footer><!--//footer-->
 
