@@ -237,12 +237,13 @@ iframe {
 .list.music.aside.section > div,
 .credits.aside.section > div {
   background-color: #FFF;
-  filter: drop-shadow(10px 10px 10px black) opacity(25%);
+  filter: drop-shadow(5px 5px 10px black) opacity(25%);
 }
 
 .section .section-inner {
   background: #fff;
   padding: 30px;
+  filter: opacity(100%);
 }
 .section .heading {
   margin-top: 0;
