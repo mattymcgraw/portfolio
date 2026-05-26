@@ -227,6 +227,19 @@ iframe {
 .section {
   margin-bottom: 30px;
 }
+.about.section > div,
+.latest.section > div,
+.experience.section > div,
+.skills.aside.section > div, 
+.testimonials.aside.section > div,
+.education.aside.section > div,
+.languages.aside.section > div,
+.list.music.aside.section > div,
+.credits.aside.section > div {
+  background-color: #FFF;
+  filter: drop-shadow(10px 10px 10px black) opacity(25%);
+}
+
 .section .section-inner {
   background: #fff;
   padding: 30px;
