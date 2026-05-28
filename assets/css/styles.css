@@ -237,7 +237,7 @@ iframe {
 .list.music.aside.section > div,
 .credits.aside.section > div {
   background-color: #FFF;
-  filter: drop-shadow(2mm 2mm 3mm rgb(180 180 180));
+  filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.5));
 }
 
 .section .section-inner {
