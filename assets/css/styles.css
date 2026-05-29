@@ -227,15 +227,15 @@ iframe {
 .section {
   margin-bottom: 30px;
 }
-.about.section > div::before,
-.latest.section > div::before,
-.experience.section > div::before,
-.skills.aside.section > div::before, 
-.testimonials.aside.section > div::before,
-.education.aside.section > div::before,
-.languages.aside.section > div::before,
-.list.music.aside.section > div::before,
-.credits.aside.section > div ::before{
+.about.section > div,
+.latest.section > div,
+.experience.section > div,
+.skills.aside.section > div, 
+.testimonials.aside.section > div,
+.education.aside.section > div,
+.languages.aside.section > div,
+.list.music.aside.section > div,
+.credits.aside.section > div {
   background-color: #FFF;
   filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.5));
 }
